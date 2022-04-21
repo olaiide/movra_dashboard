@@ -1,0 +1,13 @@
+.container {
+    margin-left: 100px;
+    min-height: 100vh;
+}
+
+.wrapper {
+    background-color:  #F4F6FC;
+    background: #f6f4f4;
+    /* background-color: #828282; */
+    /* background-color:  #2E5BFF; */
+    min-height: 100vh;
+
+}

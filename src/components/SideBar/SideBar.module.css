@@ -1,0 +1,19 @@
+.wrapper {
+    width : 100px;
+    display:  flex;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    right: 0;
+    justify-content: center;
+}
+.image__wrapper{
+    margin-top: 3rem;
+}
+.icons__wrapper{
+    margin-top: rem;
+}
+.icon{
+    padding-top: 3rem;
+    opacity: 0.7;
+}
