@@ -8,35 +8,35 @@ import { HiOutlineClipboard } from "react-icons/hi";
 
 export const Data = [
   {
-    icon: <BsGrid size={38} />,
+    icon: <BsGrid size={25} />,
     id: 1,
   },
   {
-    icon: <FaRegMap size={38} />,
+    icon: <FaRegMap size={25} />,
     id: 2,
   },
   {
-    icon: <GrLocation size={38} />,
+    icon: <GrLocation size={25} />,
     id: 3,
   },
   {
-    icon: <BsTruck size={38} />,
+    icon: <BsTruck size={25} />,
     id: 4,
   },
   {
-    icon: <HiOutlineClipboard size={38} />,
+    icon: <HiOutlineClipboard size={25} />,
     id: 5,
   },
   {
-    icon: <BsPeople size={38} />,
+    icon: <BsPeople size={25} />,
     id: 6,
   },
   {
-    icon: <FiGlobe size={38} />,
+    icon: <FiGlobe size={25} />,
     id: 7,
   },
   {
-    icon: <HiOutlineClipboard size={38} />,
+    icon: <HiOutlineClipboard size={25} />,
     id: 8,
   },
 ];

@@ -1,0 +1,110 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color:;
+    width : 80%;
+}
+.item1{
+  grid-area : top;
+  height : 230px;
+  width : 320px;
+  display: flex;
+  justify-content: space-around;
+}
+.item2{
+    grid-area: right;
+    width : 100px;
+    text-align: center;
+}
+.item3{
+    grid-area: left;
+    height : 120px;
+    width : 150px;
+}
+.item4{
+    grid-area: bottom;
+    height : 120px;
+    width : 150px;
+}
+.item5{
+    grid-area : bar;
+    width : 100%;
+    max-width: 800px;
+    background-color:;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper {
+    display : grid;
+    height : fit-content;
+    /* grid-template-areas: 'top top right right bar bar bar '
+    'top top top top right right'
+    'left left bottom bottom right right'; */
+    grid-template-areas: 'top top right bar bar bar '
+    'top top right bar bar bar'
+    'left  bottom right bar bar bar';
+    gap : 5px;
+    background-color: ;
+    width : 900px !important;
+    width : 100% !important;
+    background-color: ;
+}
+.wrapper > div {
+    background-color: white;
+}
+
+.header__text{
+    color : #2E5BFF;
+    font-weight : 700;
+    font-size: 12px;;
+}
+.header_text{
+    font-size: 11px;
+    font-weight: 700;
+    color : #2E5BFF;
+}
+ .text{
+    margin-top: -5px;;
+    font-weight: 500;;
+} 
+.state{
+    margin-top: 2.6rem;
+}
+
+.collections{
+    display: flex;
+    flex-direction: column;
+    background-color:;
+    height: 130px;
+    justify-content: space-between;
+    margin-top: 5.5rem;
+    color: #2E5BFF;
+    font-size: rem;
+    font-weight: 700;
+}
+.risk {
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    height : 100%;
+}
+.risks {
+    font-size: 12px;
+    font-weight: 700;
+    color : #2E5BFF;
+    padding : 8px 0;
+}
+.no{
+    color : black;
+    font-size: 23px;
+    font-weight: 500;
+    padding : 8px;
+}
+.barChart{
+    background: white;
+    width : 50% !important;
+    width : 500px;
+}
