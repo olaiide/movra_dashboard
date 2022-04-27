@@ -44,6 +44,9 @@ const Location = () => {
       <div className={styles.common}>
         <p>8829</p>
       </div>
+      <div className={styles.last}>
+       
+      </div>
     </div>
   );
 };

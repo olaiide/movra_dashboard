@@ -7,7 +7,7 @@ const SideBar = () => {
   return (
     <div className={styles.wrapper}>
       <div>
-        <FaBars size={35} style={{ marginTop: "2rem" }} />
+        <FaBars size={30} style={{ marginTop: "1.5rem" }} />
         <div className={styles.image__wrapper}>
           <img src={girl} alt='girl' width='40px' />
         </div>

@@ -1,55 +1,61 @@
 
 .container {
-    display: flex;
     justify-content: space-between;
-    background-color:;
     width : 80%;
+    font-family: 'Rubik';
+}
+.header__wrapper{
+    display : flex;
+    justify-content: space-between;
+}
+.collapse {
+    color : black;
+    padding-right: 20rem;
+}
+.wrapper__main{
+    display : flex;
+    justify-content: space-between !important;
+    background-color:;
+    width : 100%;
 }
 .item1{
   grid-area : top;
   height : 230px;
-  width : 320px;
+ font-family: 'Rubik';
   display: flex;
   justify-content: space-around;
 }
 .item2{
     grid-area: right;
-    width : 100px;
+    width : px;
     text-align: center;
 }
 .item3{
     grid-area: left;
     height : 120px;
-    width : 150px;
+    
 }
 .item4{
     grid-area: bottom;
     height : 120px;
-    width : 150px;
+    
 }
-.item5{
-    grid-area : bar;
-    width : 100%;
-    max-width: 800px;
-    background-color:;
+.barChart{
+    width : 49%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-color:  white;
 }
+
 .wrapper {
     display : grid;
     height : fit-content;
-    /* grid-template-areas: 'top top right right bar bar bar '
+    grid-template-areas: 'top top top top right right'
     'top top top top right right'
-    'left left bottom bottom right right'; */
-    grid-template-areas: 'top top right bar bar bar '
-    'top top right bar bar bar'
-    'left  bottom right bar bar bar';
-    gap : 5px;
-    background-color: ;
-    width : 900px !important;
-    width : 100% !important;
-    background-color: ;
+    'left left bottom bottom right right';
+    gap : 10px;
+    background-color:;
+    width : 49%;
 }
 .wrapper > div {
     background-color: white;
@@ -64,6 +70,7 @@
     font-size: 11px;
     font-weight: 700;
     color : #2E5BFF;
+    font-family: 'Rubik';
 }
  .text{
     margin-top: -5px;;
@@ -73,6 +80,16 @@
     margin-top: 2.6rem;
 }
 
+.task, .completed {
+    padding-top: 10px;
+}
+.taskNo{
+    color : black;
+    font-size: 23px;
+    padding : 5px 0;
+    font-weight: 400;
+
+}
 .collections{
     display: flex;
     flex-direction: column;
@@ -103,8 +120,8 @@
     font-weight: 500;
     padding : 8px;
 }
-.barChart{
-    background: white;
-    width : 50% !important;
-    width : 500px;
+
+table{
+    background-color: red;
+    width : 100%;
 }

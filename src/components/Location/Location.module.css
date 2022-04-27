@@ -1,7 +1,5 @@
 .wrapper {
     width : 18%;;
-    height : px;
-    background-color: red;
 }
 .locations{
     background-color: #2E5BFF;
@@ -9,7 +7,7 @@
     justify-content: space-around;
     color : white;
     font-size: 15px;
-    height : 50px;
+    height : 51px;
 }
 .locations p{
     display: flex;
@@ -23,12 +21,13 @@
 .second{
     background-color: white;
     display: flex;
-    height: 50px;
+    height: 51px;
 }
 .no{
     border-right: 3px solid rgb(189, 189, 189);
     border-bottom: 3px solid  rgb(189, 189, 189);
-    width : calc(16rem / 2);
+    width :;
+    width : 50%;
     font-size: 13px;
     font-weight: 600;
 }
@@ -37,7 +36,7 @@
 }
 .third {
     background-color: #d0c7c7;;
-    height: 50px;
+    height: 51px;
     display: flex;
     border-bottom: 2px solid rgba(233, 227, 227, 0.975);
 }
@@ -49,11 +48,17 @@
 .common {
     background-color: white;
     border-bottom: 2px solid rgba(233, 227, 227, 0.975);
-    height : 50px;
+    height : 51px;
     display: flex;
+    align-items: center;
 }
 .common p{
     margin-left: 2.3rem;
     font-size: 13px;
     font-weight: 600;
+}
+
+.last{
+    height : 20px;
+    background-color: white;
 }

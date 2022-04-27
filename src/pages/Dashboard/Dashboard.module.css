@@ -1,11 +1,13 @@
 .container {
     margin-left: 100px;
     min-height: 100vh;
+    overflow: hidden;
 }
 
 .wrapper {
     background-color:  #F4F6FC;
     background: #f6f4f4;
+    width : 100%;
     /* background-color: #828282; */
     
     min-height: 100vh;

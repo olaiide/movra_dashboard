@@ -11,9 +11,11 @@
     margin-top: 3rem;
 }
 .icons__wrapper{
-    margin-top: rem;
+    
 }
 .icon{
     padding-top: 2.3rem;
     opacity: 0.7;
+    display : flex;
+    justify-content: center;
 }

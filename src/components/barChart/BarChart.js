@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   BarChart,
@@ -7,50 +6,66 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend
+  Text,
+  Legend,
+  ResponsiveContainer,
 } from "recharts";
 
 const data = [
   {
-    name: "Page A",
-    uv: 4000,
-    pv: 2400,
-    amt: 2400
+    name: "0",
+    "TASK COMPLETED": 93,
+    "NUMBER OF VISITS": 75,
+    "SOME OTHER DATA": 73,
+    amt: 2400,
   },
   {
-    name: "Page B",
-    uv: 3000,
-    pv: 1398,
-    amt: 2210
+    name: "1",
+    "TASK COMPLETED": 66,
+    "NUMBER OF VISITS": 27,
+    "SOME OTHER DATA": 50,
+    amt: 2210,
   },
   {
-    name: "Page C",
-    uv: 2000,
-    pv: 9800,
-    amt: 2290
+    name: "2",
+    "TASK COMPLETED": 78,
+    "NUMBER OF VISITS": 52,
+    "SOME OTHER DATA": 67,
+    amt: 2290,
+  },
+  {
+    name: "3",
+    "TASK COMPLETED": 25,
+    "NUMBER OF VISITS": 75,
+    "SOME OTHER DATA": 15,
   },
 ];
 
 export default function App() {
   return (
-    <BarChart
-      width={400}
-      height={300}
-      data={data}
-      margin={{
-        top: 40,
-        right: 60,
-        left: 20,
-        bottom: 5
-      }}
-    >
-      <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" />
-      <YAxis />
-      <Tooltip />
-      <Legend />
-      <Bar dataKey="pv" fill="#8884d8" />
-      <Bar dataKey="uv" fill="#82ca9d" />
-    </BarChart>
+    <ResponsiveContainer width='100%' height='97%'>
+      {/* <Text>CHART VIEW</Text> */}
+      <BarChart
+        width={500}
+        height={400}
+        data={data}
+        margin={{
+          top: 80,
+          left: 20,
+          right: 60,
+        }}
+      >
+        <CartesianGrid strokeDasharray='' />
+
+        <XAxis dataKey='name' />
+        <YAxis />
+
+        {/* <Tooltip /> */}
+        <Legend layout='vertical' verticalAlign='bottom' />
+        <Bar dataKey='TASK COMPLETED' fill='#848884' />
+        <Bar dataKey='NUMBER OF VISITS' fill='#D3D3D3' />
+        <Bar dataKey='SOME OTHER DATA' fill='black' />
+      </BarChart>
+    </ResponsiveContainer>
   );
 }
