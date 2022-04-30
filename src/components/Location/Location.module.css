@@ -26,7 +26,6 @@
 .no{
     border-right: 3px solid rgb(189, 189, 189);
     border-bottom: 3px solid  rgb(189, 189, 189);
-    width :;
     width : 50%;
     font-size: 13px;
     font-weight: 600;
@@ -36,6 +35,7 @@
 }
 .third {
     background-color: #d0c7c7;;
+    background-color: #daecff;
     height: 51px;
     display: flex;
     border-bottom: 2px solid rgba(233, 227, 227, 0.975);

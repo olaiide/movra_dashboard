@@ -53,8 +53,7 @@
     grid-template-areas: 'top top top top right right'
     'top top top top right right'
     'left left bottom bottom right right';
-    gap : 10px;
-    background-color:;
+    gap : 13px;
     width : 49%;
 }
 .wrapper > div {

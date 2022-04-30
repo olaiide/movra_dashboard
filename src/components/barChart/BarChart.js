@@ -59,8 +59,7 @@ export default function App() {
 
         <XAxis dataKey='name' />
         <YAxis />
-
-        {/* <Tooltip /> */}
+        <Tooltip /> 
         <Legend layout='vertical' verticalAlign='bottom' />
         <Bar dataKey='TASK COMPLETED' fill='#848884' />
         <Bar dataKey='NUMBER OF VISITS' fill='#D3D3D3' />
